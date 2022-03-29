@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-$con = mysqli_connect('localhost','root', '', 'generalsheet');
+$con = mysqli_connect('localhost','root', '', 'test');
 require '../vendor/autoload.php';
 
 if(isset($_POST['save_excel_data'])){
@@ -32,7 +32,7 @@ if(isset($_POST['save_excel_data'])){
                 $msg = true;
             }
             else{
-                    $count = "1"
+                    $count = "1";
             }
         }
 
